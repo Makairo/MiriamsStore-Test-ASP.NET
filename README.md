@@ -15,7 +15,7 @@ dotnet new xunit -o MiriamsStoreSln.Tests --framework net5.0
 dotnet sln MiriamsStoreSln add MiriamsStoreSln.Tests 
 dotnet add MiriamsStoreSln.Tests reference MiriamsStoreSln 
 ```
-
+**Step 2:**
 
 
 
