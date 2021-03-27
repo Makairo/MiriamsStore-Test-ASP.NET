@@ -16,13 +16,8 @@ dotnet sln MiriamsStoreSln add MiriamsStoreSln.Tests
 dotnet add MiriamsStoreSln.Tests reference MiriamsStoreSln 
 ```
 
-<br>
-**Step 2:**
-<br>
-Unsured project is running as expected, initial push created.
-<br>
 
-<br>
+
 
 **Step 3:**<br>
 *What is Entity Framework?*
