@@ -6,7 +6,8 @@ Credit for exercise belongs to: [Adam Freeman](https://www.apress.com/gp/book/97
 <br>
 **Step 1:**<br>
 Code used to create project:<br>
-```dotnet new globaljson --sdk-version 5.0.103 --output MiriamsStoreSln
+```
+dotnet new globaljson --sdk-version 5.0.103 --output MiriamsStoreSln
 dotnet new web --no-https --output MiriamsStoreSln --framework net5.0
 dotnet new sln -o MiriamsStoreSln
 dotnet sln BobsStoreSln add MiriamsStoreSln
