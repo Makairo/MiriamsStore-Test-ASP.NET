@@ -16,8 +16,10 @@ dotnet add MiriamsStoreSln.Tests reference MiriamsStoreSln
 ```
 
 <br>
-**Step 2:**<br>
-Unsured project is running as expected, initial push created.<br>
+**Step 2:**
+<br>
+Unsured project is running as expected, initial push created.
+<br>
 ![Image](Prog1.jpeg "Link Doesnt work lmao")<br>
 
 **Step 3:**<br>
