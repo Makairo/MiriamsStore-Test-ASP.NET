@@ -16,7 +16,7 @@ dotnet sln MiriamsStoreSln add MiriamsStoreSln.Tests
 dotnet add MiriamsStoreSln.Tests reference MiriamsStoreSln 
 ```
 **Step 2:**<br>
-![img](Prog1.jpeg)
+![img](gitImages/Prog1.jpeg)
 
 
 **Step 3:**<br>
