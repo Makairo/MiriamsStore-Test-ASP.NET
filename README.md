@@ -19,3 +19,26 @@ dotnet add MiriamsStoreSln.Tests reference MiriamsStoreSln
 **Step 2:**<br>
 Unsured project is running as expected, initial push created.<br>
 ![Image](Prog1.jpeg "Link Doesnt work lmao")<br>
+
+**Step 3:**<br>
+*What is Entity Framework?*
+```
+Enity Framework is Microsofts Object to relational mapping (ORM) framework. It is used to link databases and web applications together.
+```
+*What is a Connection String?*
+```
+
+```
+*What is a Database Context?*
+```
+
+```
+*What is a Model Repository?*
+```
+
+```
+*Migration vs Scaffolding?*
+```
+
+```
+*Seeding the database*
