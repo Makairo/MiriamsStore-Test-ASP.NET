@@ -18,4 +18,4 @@ dotnet add MiriamsStoreSln.Tests reference MiriamsStoreSln
 <br>
 **Step 2:**<br>
 Unsured project is running as expected, initial push created.<br>
-![alt text](https://github.com/Makairo/MiriamsStore-Test-ASP.NET/tree/master/gitImages/Prog1.jpg "Progress 1 Image")
+[Image](https://github.com/Makairo/MiriamsStore-Test-ASP.NET/tree/master/gitImages/Prog1.jpg "Progress 1 Image")
