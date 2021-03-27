@@ -12,4 +12,10 @@ dotnet new sln -o MiriamsStoreSln
 dotnet sln BobsStoreSln add MiriamsStoreSln
 dotnet new xunit -o MiriamsStoreSln.Tests --framework net5.0
 dotnet sln MiriamsStoreSln add MiriamsStoreSln.Tests 
-dotnet add MiriamsStoreSln.Tests reference MiriamsStoreSln ```
+dotnet add MiriamsStoreSln.Tests reference MiriamsStoreSln 
+```
+
+<br>
+**Step 2:**<br>
+Unsured project is running as expected, initial push created.<br>
+![ProgImg1](gitImages/Prog1.jpeg)
