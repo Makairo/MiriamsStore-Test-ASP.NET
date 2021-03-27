@@ -16,7 +16,7 @@ dotnet add MiriamsStoreSln.Tests reference MiriamsStoreSln
 ```
 
 <br>
-Step 2:
+**Step 2:**
 <br>
 Unsured project is running as expected, initial push created.
 <br>
