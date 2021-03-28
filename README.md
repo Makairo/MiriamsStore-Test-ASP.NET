@@ -47,3 +47,7 @@ Scaffolding is the compiler creating code for cshtml and html documents with the
 ```
 *Seeding the database*:
 ![img](gitImages/Prog2.jpeg)
+<br>
+**Step 4:**<br>
+![img](gitImages/Prog3.jpeg)
+
