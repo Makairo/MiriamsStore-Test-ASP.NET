@@ -1,0 +1,14 @@
+﻿@using MiriamsStoreSln.Models;
+
+
+@model IQueryable<Product>
+<h4>Welcome to Miriams Store!</h4>
+
+@foreach(var p in Model)
+{
+    <div>
+        <h3>@p.ProductName</h3>
+        @p.ProductDesc
+        <h4>@p.ProductPrice.ToString("c")</h4>
+    </div>
+}
