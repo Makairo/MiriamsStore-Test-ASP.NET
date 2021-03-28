@@ -16,6 +16,7 @@ dotnet sln MiriamsStoreSln add MiriamsStoreSln.Tests
 dotnet add MiriamsStoreSln.Tests reference MiriamsStoreSln 
 ```
 **Step 2:**<br>
+Ensuring the project runs and loads correctly on proper ports:<br>
 ![img](gitImages/Prog1.jpeg)
 
 
