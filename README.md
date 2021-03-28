@@ -22,7 +22,8 @@ dotnet add MiriamsStoreSln.Tests reference MiriamsStoreSln
 **Step 3:**<br>
 *What is Entity Framework?*
 ```
-Enity Framework is Microsofts Object to relational mapping (ORM) framework. It is used to link databases and web applications together.
+Enity Framework is Microsofts Object to relational mapping (ORM) framework. 
+It is used to link databases and web applications together.
 ```
 *What is a Connection String?*
 ```
