@@ -49,5 +49,6 @@ Scaffolding is the compiler creating code for cshtml and html documents with the
 ![img](gitImages/Prog2.jpeg)
 <br>
 **Step 4:**<br>
+*CSS styling and pagination*
 ![img](gitImages/Prog3.jpeg)
 
