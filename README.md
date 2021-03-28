@@ -45,5 +45,10 @@ This sequence can be queried, and any class that depends on the model repository
 Migration is the compiler creating database tables and schema for you with the context provided.
 Scaffolding is the compiler creating code for cshtml and html documents with the context provided.
 ```
-*Seeding the database*:
+*Seeding the database*:<br>
 ![img](gitImages/Prog2.jpeg)
+<br>
+**Step 4:**<br>
+*CSS styling and pagination*
+![img](gitImages/Prog3.jpeg)
+
