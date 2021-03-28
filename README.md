@@ -46,3 +46,4 @@ Migration is the compiler creating database tables and schema for you with the c
 Scaffolding is the compiler creating code for cshtml and html documents with the context provided.
 ```
 *Seeding the database*:
+![img](gitImages/Prog2.jpeg)
