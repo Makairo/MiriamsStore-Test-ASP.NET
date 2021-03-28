@@ -26,18 +26,21 @@ Enity Framework is Microsofts Object to relational mapping (ORM) framework. It i
 ```
 *What is a Connection String?*
 ```
-
+A connection string is a string created that is used to connect to a SQL database from the code itself.
+It contains the database being used, and the login for the database.
 ```
 *What is a Database Context?*
 ```
-
+Database Context is the mapping of a SPECIFIC database with a schema the program can understand.
 ```
 *What is a Model Repository?*
 ```
-
+A model repository is used to reduce repetition in your database, and can be used to retrieve a sequence of database objects.
+This sequence can be queried, and any class that depends on the model repository can utilize these features.
 ```
 *Migration vs Scaffolding?*
 ```
-
+Migration is the compiler creating database tables and schema for you with the context provided.
+Scaffolding is the compiler creating code for cshtml and html documents with the context provided.
 ```
-*Seeding the database*
+*Seeding the database*:
