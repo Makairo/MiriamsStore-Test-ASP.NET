@@ -34,6 +34,9 @@ namespace MiriamsStoreSln.Migrations
                     b.Property<decimal>("ProductPrice")
                         .HasColumnType("decimal(8,2)");
 
+                    b.Property<string>("Category")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("ProductID");
 
                     b.ToTable("Products");

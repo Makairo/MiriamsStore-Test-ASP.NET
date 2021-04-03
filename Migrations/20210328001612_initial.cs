@@ -14,7 +14,8 @@ namespace MiriamsStoreSln.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ProductName = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ProductDesc = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ProductPrice = table.Column<decimal>(type: "decimal(8,2)", nullable: false)
+                    ProductPrice = table.Column<decimal>(type: "decimal(8,2)", nullable: false),
+                    Category = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
