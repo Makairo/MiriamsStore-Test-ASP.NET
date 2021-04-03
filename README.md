@@ -3,8 +3,15 @@
 Student Exercise Creating a Web Application in ASP.NET.<br>
 Credit for exercise belongs to: [Adam Freeman](https://www.apress.com/gp/book/9781484254394)
 <br>
+## Navigation Menu and Shopping Cart, Ref Ch 8 in Textbook.
+
+**Step 1: Create Navigation Menu by *Category*.** <br>
+![img](gitImages/Prog4.jpeg)
 <br>
-**Step 1:**<br>
+
+## Site and DataBase Creation, Ref Ch 7 in Textbook. 
+**Step 1:**
+<br>
 Code used to create project:<br>
 ```
 dotnet new globaljson --sdk-version 5.0.103 --output MiriamsStoreSln
@@ -51,4 +58,4 @@ Scaffolding is the compiler creating code for cshtml and html documents with the
 **Step 4:**<br>
 *CSS styling and pagination*
 ![img](gitImages/Prog3.jpeg)
-
+<br>
