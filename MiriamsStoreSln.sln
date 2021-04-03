@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiriamsStoreSln", "MiriamsStoreSln.csproj", "{23DB1B31-71DA-417A-89C7-0EDAD44681BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiriamsStoreSln", "MiriamsStoreSln.csproj", "{23DB1B31-71DA-417A-89C7-0EDAD44681BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiriamsStoreSln.Tests", "..\MiriamsStoreSln.Tests\MiriamsStoreSln.Tests.csproj", "{EBC1C66A-02FC-40F7-A65B-B6D6C0961CA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiriamsStoreSln.Tests", "..\MiriamsStoreSln.Tests\MiriamsStoreSln.Tests.csproj", "{EBC1C66A-02FC-40F7-A65B-B6D6C0961CA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{23DB1B31-71DA-417A-89C7-0EDAD44681BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +41,11 @@ Global
 		{EBC1C66A-02FC-40F7-A65B-B6D6C0961CA3}.Release|x64.Build.0 = Release|Any CPU
 		{EBC1C66A-02FC-40F7-A65B-B6D6C0961CA3}.Release|x86.ActiveCfg = Release|Any CPU
 		{EBC1C66A-02FC-40F7-A65B-B6D6C0961CA3}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F234235-7674-4F61-B946-5AAD7E16CF4E}
 	EndGlobalSection
 EndGlobal
