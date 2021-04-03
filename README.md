@@ -3,7 +3,7 @@
 Student Exercise Creating a Web Application in ASP.NET.<br>
 Credit for exercise belongs to: [Adam Freeman](https://www.apress.com/gp/book/9781484254394)
 <br>
-## Navigation Menu and other Styling, Ref Ch 8 in Textbook.
+## Navigation Menu and Shopping Cart, Ref Ch 8 in Textbook.
 
 **Step 1: Create Navigation Menu by *Category*.** <br>
 ![img](gitImages/Prog4.jpeg)
