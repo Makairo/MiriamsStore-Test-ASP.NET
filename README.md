@@ -8,6 +8,12 @@ Credit for exercise belongs to: [Adam Freeman](https://www.apress.com/gp/book/97
 **Step 1: Create Navigation Menu by *Category*.** <br>
 ![img](gitImages/Prog4.jpeg)
 <br>
+**Step 2: Creating a shopping cart** <br>
+*Add to cart button* <br>
+![img](gitImages/Prog5.jpeg)
+<br>
+*Shopping Cart* <br>
+![img](gitImages/Prog6.jpeg)
 
 ## Site and DataBase Creation, Ref Ch 7 in Textbook. 
 **Step 1:**
