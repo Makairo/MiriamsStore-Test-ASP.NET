@@ -36,6 +36,7 @@ namespace MiriamsStoreSln
             services.AddSession();
             services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddServerSideBlazor();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,16 +53,22 @@ namespace MiriamsStoreSln
             {
                 endpoints.MapControllerRoute("catpage",
                 "{category}/Page{productPage:int}",
-                new { Controller = "Home", action = "Index" });
+                    new { Controller = "Home", action = "Index" });
+
                 endpoints.MapControllerRoute("page", "Page{productPage:int}",
-                new { Controller = "Home", action = "Index", productPage = 1 });
+                    new { Controller = "Home", action = "Index", productPage = 1 });
+
                 endpoints.MapControllerRoute("category", "{category}",
-                new { Controller = "Home", action = "Index", productPage = 1 });
+                    new { Controller = "Home", action = "Index", productPage = 1 });
+
                 endpoints.MapControllerRoute("pagination",
                 "Products/Page{productPage}",
-                new { Controller = "Home", action = "Index", productPage = 1 });
+                    new { Controller = "Home", action = "Index", productPage = 1 });
+
                 endpoints.MapDefaultControllerRoute();
                 endpoints.MapRazorPages();
+                endpoints.MapBlazorHub();
+                endpoints.MapFallbackToPage("/admin/{*catchall}", "/Admin/Index");
             });
             SeedData.EnsurePopulated(app);
         }
